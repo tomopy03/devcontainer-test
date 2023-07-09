@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "./.devcontainer/git-customize.sh",
+	"postCreateCommand": "./.devcontainer/git-init.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
